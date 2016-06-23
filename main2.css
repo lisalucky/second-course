@@ -1,0 +1,56 @@
+body{
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 15px;
+margin-bottom: 10px;
+font-family:"Microsoft YaHei";
+text-align:center;
+}
+
+table{	
+	border-collapse: collapse;
+	width: auto;
+	margin: auto;
+	}
+	
+table caption{
+	font-weight:bold;
+	font-size:22px;
+	margin-bottom:10px;
+}
+
+table th, tr, td {
+	border:1px solid #000;
+	font-size:16px;
+	line-height:30px;
+}
+table th {
+	background: lightgrey;
+}
+tr:hover{
+	background-color:lightgrey;	
+}
+
+ul{
+	list-style:none;
+	padding: 0;
+}
+ul li{
+	margin:10px;
+	
+}
+ul li:hover{
+	color:green;
+	cursor:pointer;
+}
+
+.woman:hover{
+	color:#F00;
+	cursor:pointer;
+	
+}
+.man:hover{
+	color:#00F;
+	cursor:pointer;
+}
+
